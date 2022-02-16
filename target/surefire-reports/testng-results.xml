@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[</br>Test Cases: Search results displayed should be relevant to search keyword.]]>
+    </line>
+    <line>
+      <![CDATA[</br></br>Step 1: Open page "https://tamara.co/en/tamara-stores.html" ]]>
+    </line>
+    <line>
+      <![CDATA[</br>Step 2:  Enter <keyword> which match the item names]]>
+    </line>
+    <line>
+      <![CDATA[</br></br>ACTUAL RESULT: </br> Items matched the keyword should be displayed.  ]]>
+    </line>
+    <line>
+      <![CDATA[</br>Test Cases: Search results displayed should be relevant to search keyword.]]>
+    </line>
+    <line>
+      <![CDATA[</br></br>Step 1: Open page "https://tamara.co/en/tamara-stores.html" ]]>
+    </line>
+    <line>
+      <![CDATA[</br>Step 2:  Enter <keyword> which does NOT match the item names]]>
+    </line>
+    <line>
+      <![CDATA[</br></br>ACTUAL RESULT: </br> Message "No results for "onesd", check the spelling or try with a different word" appears.  ]]>
+    </line>
+  </reporter-output>
+  <suite name="TestNG HyBrid Tests" duration-ms="9090" started-at="2022-02-16T16:31:38 ICT" finished-at="2022-02-16T16:31:47 ICT">
+    <groups>
+    </groups>
+    <test name="Verify Search function" duration-ms="9090" started-at="2022-02-16T16:31:38 ICT" finished-at="2022-02-16T16:31:47 ICT">
+      <class name="com.demo.test.SearchFunction">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.demo.test.SearchFunction@77caeb3e]" name="init" is-config="true" duration-ms="6504" started-at="2022-02-16T16:31:32 ICT" finished-at="2022-02-16T16:31:38 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="Search_results_displayed_should_be_relevant_to_search_keyword()[pri:1, instance:com.demo.test.SearchFunction@77caeb3e]" name="Search_results_displayed_should_be_relevant_to_search_keyword" duration-ms="4224" started-at="2022-02-16T16:31:38 ICT" finished-at="2022-02-16T16:31:42 ICT">
+          <reporter-output>
+            <line>
+              <![CDATA[</br>Test Cases: Search results displayed should be relevant to search keyword.]]>
+            </line>
+            <line>
+              <![CDATA[</br></br>Step 1: Open page "https://tamara.co/en/tamara-stores.html" ]]>
+            </line>
+            <line>
+              <![CDATA[</br>Step 2:  Enter <keyword> which match the item names]]>
+            </line>
+            <line>
+              <![CDATA[</br></br>ACTUAL RESULT: </br> Items matched the keyword should be displayed.  ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Search_results_displayed_should_be_relevant_to_search_keyword -->
+        <test-method status="PASS" signature="Not_found_message_appears_when_keyword_does_not_match_any_item()[pri:2, instance:com.demo.test.SearchFunction@77caeb3e]" name="Not_found_message_appears_when_keyword_does_not_match_any_item" duration-ms="4137" started-at="2022-02-16T16:31:42 ICT" finished-at="2022-02-16T16:31:47 ICT">
+          <reporter-output>
+            <line>
+              <![CDATA[</br>Test Cases: Search results displayed should be relevant to search keyword.]]>
+            </line>
+            <line>
+              <![CDATA[</br></br>Step 1: Open page "https://tamara.co/en/tamara-stores.html" ]]>
+            </line>
+            <line>
+              <![CDATA[</br>Step 2:  Enter <keyword> which does NOT match the item names]]>
+            </line>
+            <line>
+              <![CDATA[</br></br>ACTUAL RESULT: </br> Message "No results for "onesd", check the spelling or try with a different word" appears.  ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Not_found_message_appears_when_keyword_does_not_match_any_item -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.demo.test.SearchFunction@77caeb3e]" name="tearDown" is-config="true" duration-ms="713" started-at="2022-02-16T16:31:47 ICT" finished-at="2022-02-16T16:31:47 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.demo.test.SearchFunction -->
+    </test> <!-- Verify Search function -->
+  </suite> <!-- TestNG HyBrid Tests -->
+</testng-results>
